@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropzone {
+  background: rgb(232, 237, 238, 0.4);
+  border-radius: 5pt;
+  margin: 10px 0px 15px 0px;
+  padding: 1px 5px 25px 5px;
+  min-height: 50px;
+}
+
+.dropzone p {
+  background: #e8edee;
+  padding: 10px;
+  border-radius: 5pt;
+  color: #000;
+  margin-top: 8px;
+}
+
+.sys1 {
+  float: right;
+  margin-top: -4px;
+  padding: 6px;
+  background: rgb(75, 85, 99);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5pt;
+  font-size: 0.9rem;
+}
+
+.check {
+  float: right;
+  margin: -5px -5px 0px 5px;
+}
